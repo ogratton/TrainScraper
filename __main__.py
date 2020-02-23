@@ -1,5 +1,13 @@
 from .trains import run
-from .my_defaults import default_map, default_berths
+try:
+    from .my_defaults import default_map, default_berths
+except ImportError:
+    default_map = "lec1"
+    default_berths = [
+        "WY0118",  # Random ones. I do not live here.
+        "WS0004",
+        "WS0002",
+    ]
 import argparse
 
 
