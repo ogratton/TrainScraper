@@ -1,0 +1,1629 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display:inline;width:inherit;max-width: inherit; height: inherit; min-height: inherit; max-height: inherit;" width="5795" height="671">
+  <metadata id="license" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cc="http://creativecommons.org/ns#">
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description rdf:title="Track Diagram" rdf:publisher="OpenTrainTimes Ltd." rdf:date="2019-12-30" rdf:format="image/svg+xml" rdf:language="en"/>
+    </rdf:RDF>
+  </metadata>
+  <defs>
+    <marker id="arrow_l">
+      <path d="M 0,0 -10,0 0,-10 c 5,0 10,5 10,10 z" style="stroke:#000000;stroke-width:1pt"/>
+    </marker>
+  </defs>
+  <style type="text/css"><![CDATA[svg { background: rgba(0,0,0,0); }
+.berth { font-size:1.15em;fill:#ffff00;font-family:monospace }
+.track { stroke:#000;fill:none;stroke-width:4px; }
+.semaphore.stop { fill:#c00000;fill-opacity:1;stroke:none }
+.semaphore.stop.band { fill:#ffffff;fill-opacity:1;stroke:none }
+.semaphore.distant { stroke:#000;fill:none;stroke-width:4px; }
+.lx { fill:#e000e0;fill-opacity:0.5;stroke:none }
+.stem { stroke:#000;fill:none;stroke-width:2px; }
+.sig_id { font-size:10px;font-family:sans-serif;text-anchor:middle }
+.text { font-style:normal;font-family:sans-serif;text-anchor:middle }
+.feature { font-size:12px;font-weight:bold;fill:#0000ff }
+.station { font-size:16px;font-weight:bold;fill:#0000ff }
+.map_link { fill-opacity:0;stroke:none }
+.map_link_active { fill-opacity:0;stroke:blue }
+.link { font-size:10px;fill:#000000 }
+.label { font-size:10px;font-weight:bold;fill:#000000 }
+.portal { stroke:#808080;stroke-width:4px;fill:none }
+.platform { stroke:none;fill:#40c040;fill-opacity:1 }
+.platform_id { font-size:10px;font-weight:bold;fill:#ffffff }
+.divide { fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:2,2;stroke-opacity:1 }
+.divide_text { font-size:14px;font-weight:bold;fill:#0000e0 }
+.line_label { font-size:10px;font-weight:bold;fill:#000000 }
+.marker .fg { stroke:#ffffff;stroke-width:1;fill:#e0e000 }
+.marker .bg { stroke:#0000e0;stroke-width:2;fill:#0000e0 }
+.los { stroke:none;fill:#ff0000 }
+.shunt .fg { stroke:#ffffff;stroke-width:1;fill:none }
+.shunt .bg { stroke:#000000;stroke-width:1;fill:#e000e0 }
+.clear .fg { fill:#e00000 }
+.clear .bg { stroke:#000000;stroke-width:1;fill:#ffffff }
+.arrow_l { marker-end:url(#arrow_l) }
+.arrow_r { marker-end:url(#arrow_l) }
+.tc { stroke:#ffff00;stroke-width:2;fill:none;stroke-dasharray:2;stroke-opacity:1 }
+.aspect { stroke:#000000;fill:#ffffff;stroke-width:1; }
+.aspect .green { fill:#008800 }
+.aspect .yellow { fill:#ffff00 }
+.aspect .red { fill:#ff0000 }
+.route { stroke:#00ff00;stroke-width:2;fill:none;visibility:hidden }
+.route .callon { stroke-dasharray:3,1 }
+.route .warner { stroke-dasharray:3,3 }
+.route .shunt { stroke-dasharray:5,1 }
+.route .called { visibility:visible }
+.indication .graphic { stroke:#000000;stroke-width:1;fill:#888888 }
+.indication .graphic .on { fill:#ff0000 }
+.indication .graphic .off { fill:#ffffff }
+.indication .text { font-size:10px;fill:#ff0000;font-weight:bold }
+.indication .text .on { visibility:visible }
+.indication .text .off { visibility:hidden }]]></style>
+  <g id="layers">
+    <g id="tracks" class="track">
+      <path d="M 3535,29 3620,29 3635,59"/>
+      <path d="M 3230,149 3260,89"/>
+      <path d="M 3150,29 3060,29 3015,119"/>
+      <path d="M 3385,509 4760,509 4790,449 4790,434"/>
+      <path d="M 1485,329 1500,299 1520,299"/>
+      <path d="M 4805,389 4910,389 4925,359 4975,359 4990,329"/>
+      <path d="M 5140,419 5050,419 5020,359"/>
+      <path d="M 4760,225 4760,210 4790,150 5675,150"/>
+      <path d="M 5682,180 4805,180 4790,210 4790,225"/>
+      <path d="M 4715,359 4700,389 4205,389 4175,449 3955,448 3925,388 3925,374"/>
+      <path d="M 4190,360 4160,420 3970,419 3955,389 3955,375"/>
+      <path d="M 5425,299 5440,269"/>
+      <path d="M 5440,329 5455,299"/>
+      <path d="M 5455,269 5470,239"/>
+      <path d="M 5470,299 5485,269"/>
+      <path d="M 5230,180 5245,150"/>
+      <path d="M 5,389 1475,389"/>
+      <path d="M 5,329 1505,329"/>
+      <path d="M 5,269 330,269 345,299 1470,299 1485,269 5690,269"/>
+      <path d="M 5020,329 5035,299"/>
+      <path d="M 4585,570 4600,540"/>
+      <path d="M 4600,570 4585,540"/>
+      <path d="M 4795,540 4780,570 4555,570 4525,510"/>
+      <path d="M 4810,540 4570,540 4540,480"/>
+      <path d="M 4390,329 4405,299"/>
+      <path d="M 4360,359 4375,329"/>
+      <path d="M 4405,359 4420,329"/>
+      <path d="M 4375,389 4390,359"/>
+      <path d="M 3565,329 3550,299"/>
+      <path d="M 3640,179 3625,149"/>
+      <path d="M 3685,239 3655,179"/>
+      <path d="M 3670,329 3685,299"/>
+      <path d="M 3640,359 3655,329"/>
+      <path d="M 4160,450 4145,420"/>
+      <path d="M 4115,449 4100,419"/>
+      <path d="M 4120,419 4130,419"/>
+      <path d="M 4140,449 4130,449"/>
+      <path d="M 3620,449 3505,449 3460,359"/>
+      <path d="M 3620,419 3520,419 3475,329"/>
+      <path d="M 3445,359 3430,329"/>
+      <path d="M 3620,389 3505,389"/>
+      <path d="M 3480,359 3495,369"/>
+      <path d="M 3485,349 3500,359"/>
+      <path d="M 2755,329 2740,299"/>
+      <path d="M 2915,359 2930,329"/>
+      <path d="M 2770,359 3115,359 3130,329"/>
+      <path d="M 3100,359 3085,389 3015,389 3000,359"/>
+      <path d="M 2945,329 2960,299"/>
+      <path d="M 2975,299 2990,269"/>
+      <path d="M 3005,269 3020,239"/>
+      <path d="M 3145,329 3160,299"/>
+      <path d="M 3145,239 3160,269"/>
+      <path d="M 3100,179 3130,239"/>
+      <path d="M 3065,179 3035,239"/>
+      <path d="M 3050,179 3035,149"/>
+      <path d="M 2785,359 2770,329"/>
+      <path d="M 3230,269 3260,329"/>
+      <path d="M 3245,239 3275,299"/>
+      <path d="M 3100,600 3330,600 3420,420 3405,390"/>
+      <path d="M 2875,449 2890,419"/>
+      <path d="M 2880,479 2975,479 3005,419"/>
+      <path d="M 2880,509 2990,509 3020,449"/>
+      <path d="M 2545,449 2530,479 2390,479 2375,449 1685,449 1670,419 1530,419 1515,389"/>
+      <path d="M 3080,449 3065,419"/>
+      <path d="M 2450,329 2435,359 2305,359 2290,329"/>
+      <path d="M 2465,329 2480,299"/>
+      <path d="M 2300,449 2315,419"/>
+      <path d="M 2120,419 2130,419"/>
+      <path d="M 2135,449 2125,449"/>
+      <path d="M 1435,509 1450,539 1520,539 1580,419"/>
+      <path d="M 1470,479 1485,449 1535,449 1610,299"/>
+      <path d="M 1295,329 1280,299"/>
+      <path d="M 1340,389 1310,329"/>
+      <path d="M 1295,299 1325,239"/>
+      <path d="M 1185,509 1740,509 1830,329"/>
+      <path d="M 1185,479 1695,479 1770,329"/>
+      <path d="M 1295,419 1280,389"/>
+      <path d="M 5,419 1470,419 1545,269"/>
+      <path d="M 385,179 415,239 655,239 670,209 1305,209"/>
+      <path d="M 885,239 870,209"/>
+      <path d="M 835,389 805,329"/>
+      <path d="M 760,329 775,299"/>
+      <path d="M 1120,239 1105,209"/>
+      <path d="M 1120,299 1090,239"/>
+      <path d="M 1075,329 1090,299"/>
+      <path d="M 1105,419 1120,389"/>
+      <path d="M 1135,239 1150,209"/>
+      <path d="M 1220,209 1235,179 1305,179"/>
+      <path d="M 535,509 550,539 615,539"/>
+      <path d="M 195,480 210,450"/>
+      <path d="M 240,480 270,420"/>
+      <path d="M 195,360 210,330"/>
+      <path d="M 240,390 270,330"/>
+      <path d="M 240,330 225,300"/>
+      <path d="M 285,329 315,269"/>
+      <path d="M 375,389 345,329"/>
+      <path d="M 345,479 375,419"/>
+      <path d="M 420,479 390,419"/>
+      <path d="M 420,419 405,389"/>
+      <path d="M 400,299 430,239"/>
+      <path d="M 445,239 475,179"/>
+      <path d="M 490,299 460,239"/>
+      <path d="M 520,329 505,299"/>
+      <path d="M 465,479 435,419"/>
+      <path d="M 465,419 480,389"/>
+      <path d="M 465,509 450,479"/>
+      <path d="M 615,509 450,509"/>
+      <path d="M 655,389 685,329"/>
+      <path d="M 5,179 885,179 900,209"/>
+      <path d="M 490,179 505,149 570,149"/>
+      <path d="M 775,149 840,149 855,179"/>
+      <path d="M 5,600 210,600 270,480"/>
+      <path d="M 5,510 210,510"/>
+      <path d="M 5,540 195,540 225,480"/>
+      <path d="M 5,570 225,570"/>
+      <path d="M 5,450 225,450 240,420"/>
+      <path d="M 5,299 240,299 255,269"/>
+      <path d="M 5,359 210,359 225,389"/>
+      <path d="M 5,149 355,149 370,179"/>
+      <path d="M 5,210 195,210 210,240"/>
+      <path d="M 5,239 345,239 375,299"/>
+      <path d="M 5,89 310,89 340,149"/>
+      <path d="M 5,120 135,120 150,150"/>
+      <path d="M 5035,359 5050,329"/>
+      <path d="M 5230,329 5245,299"/>
+      <path d="M 5140,359 5005,359 4990,389 4940,389 4925,419 4805,419"/>
+      <path d="M 5140,390 5035,389"/>
+      <path d="M 4925,329 4940,299"/>
+      <path d="M 4960,389 4975,359"/>
+      <path d="M 3598,149 3608,149"/>
+      <path d="M 3612,179 3602,179"/>
+      <path d="M 2806,149 2816,149"/>
+      <path d="M 2820,179 2810,179"/>
+      <path d="M 3153,149 3163,149"/>
+      <path d="M 3167,179 3157,179"/>
+      <path d="M 3055,449 3045,449"/>
+      <path d="M 4573,479 4583,479"/>
+      <path d="M 4587,509 4577,509"/>
+      <path d="M 5670,299 5680,299"/>
+      <path d="M 5685,329 5675,329"/>
+      <path d="M 5670,239 5680,239"/>
+      <path d="M 5685,269 5675,269"/>
+      <path d="M 5670,150 5680,150"/>
+      <path d="M 5685,180 5675,180"/>
+      <path d="M 3955,225 3955,209 3925,149 2795,149"/>
+      <path d="M 3925,225 3925,209 3910,179 2795,179"/>
+      <path d="M 5690,239 835,239 810,289"/>
+      <path d="M 740,429 715,479 5,479"/>
+      <path d="M 3100,569 3315,569 3420,359 4895,359 4910,329"/>
+      <path d="M 3045,419 3055,419"/>
+      <path d="M 2400,419 3295,419 3325,480 3350,480"/>
+      <path d="M 3210,449 2400,449"/>
+      <path d="M 2835,149 2850,119"/>
+      <path d="M 3113,179 3128,149"/>
+      <path d="M 3045,119 3060,89 3425,89"/>
+      <path d="M 3235,119 3250,109"/>
+      <path d="M 3240,129 3255,119"/>
+      <path d="M 3275,89 3290,59 3460,59"/>
+      <path d="M 3745,89 3730,59"/>
+      <path d="M 3535,59 3840,59"/>
+      <path d="M 3535,89 3840,89"/>
+      <path d="M 1540,299 1640,299 1700,420 2375,420 2390,390 2530,390 2545,420"/>
+      <path d="M 1525,329 1770,329 1785,299 5690,299"/>
+      <path d="M 1495,389 1770,389 1800,329 5690,329"/>
+      <path d="M 4895,329 4880,299"/>
+      <path d="M 2275,329 2260,299"/>
+      <path d="M 2830,119 3425,119"/>
+      <path d="M 4025,149 3925,149"/>
+      <path d="M 3335,509 3310,509 3280,449 3230,449 3215,479 3080,479 3065,449"/>
+      <path d="M 3400,480 4745,480 4760,450 4760,434"/>
+      <path d="M 3250,449 3265,419"/>
+      <path d="M 5,29 195,29 225,89"/>
+    </g>
+    <g id="portals" class="portal">
+      <path d="M 1005,439 995,434 995,284 1005,279"/>
+      <path d="M 965,439 975,434 975,284 965,279"/>
+      <path d="M 4745,214 4750,224 4800,224 4805,214"/>
+      <path d="M 3910,385 3915,375 3965,375 3970,385"/>
+      <path d="M 3910,214 3915,224 3965,224 3970,214"/>
+      <path d="M 1460,400 1470,400 1525,290 1520,280"/>
+      <path d="M 795,280 800,290 820,290 825,280"/>
+      <path d="M 725,440 730,430 750,430 755,440"/>
+      <path d="M 1865,279 1875,274 1875,229 1865,224"/>
+      <path d="M 1005,259 995,254 995,194 1005,189"/>
+      <path d="M 965,259 975,254 975,194 965,189"/>
+      <path d="M 1495,410 1490,400 1545,290 1555,290"/>
+      <path d="M 4745,444 4750,434 4800,434 4805,444"/>
+      <path d="M 2015,462 2005,457 2005,412 2015,407"/>
+      <path d="M 2680,280 2690,275 2690,230 2680,225"/>
+      <path d="M 2730,280 2720,275 2720,230 2730,225"/>
+      <path d="M 2680,345 2690,340 2690,290 2680,285"/>
+      <path d="M 2730,345 2720,340 2720,290 2730,285"/>
+      <path d="M 2680,465 2690,460 2690,410 2680,405"/>
+      <path d="M 2730,465 2720,460 2720,410 2730,405"/>
+      <path d="M 2015,342 2005,337 2005,292 2015,287"/>
+      <path d="M 2015,279 2005,274 2005,229 2015,224"/>
+      <path d="M 1865,342 1875,337 1875,292 1865,287"/>
+      <path d="M 3380,539 3375,529 3405,469 3415,469"/>
+      <path d="M 3320,519 3330,519 3360,459 3355,449"/>
+    </g>
+    <g id="lx" class="lx"/>
+    <g id="line_label" class="text line_label">
+      <text x="2130" y="433">
+        <tspan>D</tspan>
+      </text>
+      <text x="2130" y="463">
+        <tspan>U</tspan>
+      </text>
+      <text x="3605" y="164">
+        <tspan>DWR</tspan>
+      </text>
+      <text x="3605" y="194">
+        <tspan>UWR</tspan>
+      </text>
+      <text x="2813" y="144">
+        <tspan>DWL</tspan>
+      </text>
+      <text x="2813" y="173">
+        <tspan>UWL</tspan>
+      </text>
+      <text x="3160" y="144">
+        <tspan>DWR</tspan>
+      </text>
+      <text x="3160" y="174">
+        <tspan>UWR</tspan>
+      </text>
+      <text x="3050" y="413">
+        <tspan>D</tspan>
+      </text>
+      <text x="3050" y="443">
+        <tspan>U</tspan>
+      </text>
+      <text x="4580" y="493">
+        <tspan>D</tspan>
+      </text>
+      <text x="4580" y="523">
+        <tspan>U</tspan>
+      </text>
+      <text x="4130" y="434">
+        <tspan>DWR</tspan>
+      </text>
+      <text x="4130" y="463">
+        <tspan>UWR</tspan>
+      </text>
+      <text x="5680" y="293">
+        <tspan>DS</tspan>
+      </text>
+      <text x="5680" y="323">
+        <tspan>US</tspan>
+      </text>
+      <text x="5680" y="233">
+        <tspan>DF</tspan>
+      </text>
+      <text x="5680" y="263">
+        <tspan>UF</tspan>
+      </text>
+      <text x="5680" y="144">
+        <tspan>D</tspan>
+      </text>
+      <text x="5680" y="174">
+        <tspan>U</tspan>
+      </text>
+    </g>
+    <g id="platform" class="platform">
+      <rect x="5" y="550" width="180" height="10"/>
+      <rect x="5" y="610" width="180" height="10"/>
+      <rect x="5" y="490" width="180" height="10"/>
+      <rect x="5" y="430" width="180" height="10"/>
+      <rect x="5" y="370" width="180" height="10"/>
+      <rect x="5" y="310" width="180" height="10"/>
+      <rect x="5" y="250" width="180" height="10"/>
+      <rect x="5" y="190" width="180" height="10"/>
+      <rect x="5" y="70" width="180" height="10"/>
+      <rect x="1365" y="490" width="60" height="10"/>
+      <rect x="2490" y="340" width="60" height="10"/>
+      <rect x="2490" y="280" width="60" height="10"/>
+      <rect x="2025" y="460" width="60" height="10"/>
+      <rect x="2025" y="400" width="60" height="10"/>
+      <rect x="2170" y="460" width="120" height="10"/>
+      <rect x="2170" y="400" width="120" height="10"/>
+      <rect x="2400" y="460" width="120" height="10"/>
+      <rect x="2400" y="400" width="120" height="10"/>
+      <rect x="2615" y="460" width="60" height="10"/>
+      <rect x="2615" y="400" width="60" height="10"/>
+      <rect x="5420" y="160" width="60" height="10"/>
+      <rect x="5290" y="190" width="60" height="10"/>
+      <rect x="5290" y="130" width="60" height="10"/>
+      <rect x="5540" y="190" width="60" height="10"/>
+      <rect x="5540" y="130" width="60" height="10"/>
+      <rect x="5080" y="220" width="120" height="10"/>
+      <rect x="5080" y="130" width="120" height="10"/>
+      <rect x="5080" y="280" width="120" height="10"/>
+      <rect x="5080" y="340" width="120" height="10"/>
+      <rect x="3090" y="460" width="120" height="10"/>
+      <rect x="3090" y="430" width="120" height="10"/>
+      <rect x="3845" y="520" width="60" height="10"/>
+      <rect x="3845" y="460" width="60" height="10"/>
+      <rect x="4375" y="520" width="120" height="10"/>
+      <rect x="4375" y="460" width="120" height="10"/>
+      <rect x="5080" y="190" width="120" height="10"/>
+      <rect x="5080" y="370" width="120" height="10"/>
+      <rect x="5145" y="350" width="55" height="20"/>
+      <rect x="5" y="40" width="180" height="10"/>
+    </g>
+    <g id="platform_id" class="text platform_id">
+      <text x="23" y="558">
+        <tspan>v 2</tspan>
+      </text>
+      <text x="183" y="558">
+        <tspan>3 ^</tspan>
+      </text>
+      <text x="104" y="618">
+        <tspan>1</tspan>
+      </text>
+      <text x="23" y="498">
+        <tspan>v 4</tspan>
+      </text>
+      <text x="183" y="498">
+        <tspan>5 ^</tspan>
+      </text>
+      <text x="23" y="438">
+        <tspan>v 6</tspan>
+      </text>
+      <text x="183" y="438">
+        <tspan>7 ^</tspan>
+      </text>
+      <text x="28" y="378">
+        <tspan>v 8</tspan>
+      </text>
+      <text x="176" y="378">
+        <tspan>9 ^</tspan>
+      </text>
+      <text x="19" y="318">
+        <tspan>v 10</tspan>
+      </text>
+      <text x="178" y="318">
+        <tspan>11 ^</tspan>
+      </text>
+      <text x="28" y="258">
+        <tspan>v 12</tspan>
+      </text>
+      <text x="178" y="258">
+        <tspan>13 ^</tspan>
+      </text>
+      <text x="28" y="198">
+        <tspan>v 14</tspan>
+      </text>
+      <text x="177" y="198">
+        <tspan>15 ^</tspan>
+      </text>
+      <text x="28" y="78">
+        <tspan>v 16</tspan>
+      </text>
+      <text x="1404" y="498">
+        <tspan>OOU</tspan>
+      </text>
+      <text x="2526" y="348">
+        <tspan>5</tspan>
+      </text>
+      <text x="2526" y="288">
+        <tspan>6</tspan>
+      </text>
+      <text x="2060" y="468">
+        <tspan>1</tspan>
+      </text>
+      <text x="2060" y="408">
+        <tspan>2</tspan>
+      </text>
+      <text x="2235" y="468">
+        <tspan>1</tspan>
+      </text>
+      <text x="2235" y="408">
+        <tspan>2</tspan>
+      </text>
+      <text x="2511" y="468">
+        <tspan>2 ^</tspan>
+      </text>
+      <text x="2411" y="468">
+        <tspan>1 v</tspan>
+      </text>
+      <text x="2511" y="408">
+        <tspan>4 ^</tspan>
+      </text>
+      <text x="2411" y="408">
+        <tspan>3 v</tspan>
+      </text>
+      <text x="2650" y="468">
+        <tspan>1</tspan>
+      </text>
+      <text x="2651" y="408">
+        <tspan>2</tspan>
+      </text>
+      <text x="5431" y="168">
+        <tspan>2 v</tspan>
+      </text>
+      <text x="5325" y="198">
+        <tspan>2</tspan>
+      </text>
+      <text x="5325" y="138">
+        <tspan>1</tspan>
+      </text>
+      <text x="5575" y="198">
+        <tspan>2</tspan>
+      </text>
+      <text x="5575" y="138">
+        <tspan>1</tspan>
+      </text>
+      <text x="5145" y="228">
+        <tspan>3</tspan>
+      </text>
+      <text x="5145" y="138">
+        <tspan>1</tspan>
+      </text>
+      <text x="5191" y="288">
+        <tspan>4 ^</tspan>
+      </text>
+      <text x="5091" y="288">
+        <tspan>v 5</tspan>
+      </text>
+      <text x="5145" y="348">
+        <tspan>6</tspan>
+      </text>
+      <text x="118" y="485">
+        <tspan>&#xA0;</tspan>
+      </text>
+      <text x="3193" y="468">
+        <tspan>2 ^</tspan>
+      </text>
+      <text x="3163" y="438">
+        <tspan>3 ^</tspan>
+      </text>
+      <text x="3118" y="468">
+        <tspan>1 v</tspan>
+      </text>
+      <text x="3880" y="528">
+        <tspan>1</tspan>
+      </text>
+      <text x="3880" y="468">
+        <tspan>2</tspan>
+      </text>
+      <text x="4441" y="528">
+        <tspan>2</tspan>
+      </text>
+      <text x="4440" y="469">
+        <tspan>1</tspan>
+      </text>
+      <text x="5471" y="168">
+        <tspan>1 ^</tspan>
+      </text>
+      <text x="5145" y="198">
+        <tspan>2</tspan>
+      </text>
+    </g>
+    <g id="signal_ids" class="sig_id">
+      <text x="1200" y="533">1204</text>
+      <text x="1205" y="473">1200</text>
+      <text x="3115" y="622">1038</text>
+      <text x="2895" y="532">1044</text>
+      <text x="5565" y="223">141</text>
+      <text x="5655" y="223">143</text>
+      <text x="5565" y="313">345</text>
+      <text x="5655" y="283">347</text>
+      <text x="5565" y="353">342</text>
+      <text x="5565" y="263">138</text>
+      <text x="5410" y="223">139</text>
+      <text x="5410" y="283">343</text>
+      <text x="5260" y="293">136</text>
+      <text x="5260" y="353">340</text>
+      <text x="5215" y="223">137</text>
+      <text x="5065" y="263">134</text>
+      <text x="4690" y="223">135</text>
+      <text x="4690" y="283">339</text>
+      <text x="4540" y="293">132</text>
+      <text x="4525" y="343">336</text>
+      <text x="5410" y="353">495</text>
+      <text x="5065" y="313">392</text>
+      <text x="5065" y="353">338</text>
+      <text x="5215" y="283">341</text>
+      <text x="5215" y="353">493</text>
+      <text x="5065" y="383">1252</text>
+      <text x="5065" y="413">1254</text>
+      <text x="5065" y="443">1256</text>
+      <text x="4880" y="373">791</text>
+      <text x="4880" y="403">793</text>
+      <text x="4690" y="343">829</text>
+      <text x="4690" y="373">931</text>
+      <text x="4730" y="383">936</text>
+      <text x="4961" y="353">1251</text>
+      <text x="4945" y="133">41</text>
+      <text x="4855" y="203">42</text>
+      <text x="5065" y="203">44</text>
+      <text x="5215" y="133">43</text>
+      <text x="5365" y="133">45</text>
+      <text x="5495" y="133">47</text>
+      <text x="5275" y="203">46</text>
+      <text x="5405" y="203">48</text>
+      <text x="5525" y="203">52</text>
+      <text x="5615" y="133">51</text>
+      <text x="4615" y="563">32</text>
+      <text x="4615" y="593">34</text>
+      <text x="4765" y="523">36</text>
+      <text x="4765" y="553">38</text>
+      <text x="4510" y="463">37</text>
+      <text x="4360" y="533">28</text>
+      <text x="3830" y="533">24</text>
+      <text x="3545" y="463">31</text>
+      <text x="4245" y="463">35</text>
+      <text x="3920" y="463">33</text>
+      <text x="4180" y="533">26</text>
+      <text x="3830" y="293">130</text>
+      <text x="4095" y="223">133</text>
+      <text x="4095" y="283">337</text>
+      <text x="3830" y="353">334</text>
+      <text x="1285" y="533">1202</text>
+      <text x="2860" y="113">622</text>
+      <text x="3006" y="102">1185</text>
+      <text x="3075" y="53">1182</text>
+      <text x="2860" y="203">812</text>
+      <text x="2860" y="163">916</text>
+      <text x="3070" y="143">624</text>
+      <text x="3221" y="103">741</text>
+      <text x="3070" y="113">738</text>
+      <text x="3221" y="73">621</text>
+      <text x="3305" y="83">748</text>
+      <text x="3290" y="133">740</text>
+      <text x="3456" y="43">799</text>
+      <text x="3716" y="113">743</text>
+      <text x="3716" y="43">623</text>
+      <text x="3826" y="113">149</text>
+      <text x="3826" y="43">150</text>
+      <text x="3611" y="13">797</text>
+      <text x="3290" y="103">744</text>
+      <text x="4880" y="343">933</text>
+      <text x="4525" y="353">934</text>
+      <text x="4540" y="413">830</text>
+      <text x="3340" y="263">128</text>
+      <text x="3340" y="353">332</text>
+      <text x="3011" y="203">915</text>
+      <text x="3011" y="133">813</text>
+      <text x="4900" y="443">WY115</text>
+      <text x="3955" y="173">1210</text>
+    </g>
+    <g id="signal_stems" class="stem">
+      <path d="M 3115,610 3135,610"/>
+      <path d="M 2895,520 2915,520"/>
+      <path d="M 1285,520 1305,520"/>
+      <path d="M 1200,519 1220,519"/>
+      <path d="M 1210,489 1215,489 1215,479"/>
+      <path d="M 5565,230 5545,230"/>
+      <path d="M 5655,230 5635,230"/>
+      <path d="M 5565,290 5545,290"/>
+      <path d="M 5655,290 5635,290"/>
+      <path d="M 5585,340 5565,340"/>
+      <path d="M 5585,280 5565,280"/>
+      <path d="M 5410,230 5390,230"/>
+      <path d="M 5410,290 5390,290"/>
+      <path d="M 5280,280 5260,280"/>
+      <path d="M 5280,340 5260,340"/>
+      <path d="M 5215,230 5195,230"/>
+      <path d="M 5085,280 5065,280"/>
+      <path d="M 4690,230 4670,230"/>
+      <path d="M 4690,290 4670,290"/>
+      <path d="M 4560,280 4540,280"/>
+      <path d="M 4560,340 4540,340"/>
+      <path d="M 5410,340 5390,340"/>
+      <path d="M 5085,290 5065,290"/>
+      <path d="M 5085,340 5065,340"/>
+      <path d="M 5215,290 5195,290"/>
+      <path d="M 5215,340 5195,340"/>
+      <path d="M 5070,429 5075,429 5075,420"/>
+      <path d="M 4880,380 4860,380"/>
+      <path d="M 4880,410 4860,410"/>
+      <path d="M 4690,350 4670,350"/>
+      <path d="M 4690,380 4670,380"/>
+      <path d="M 4750,370 4730,370"/>
+      <path d="M 4880,350 4860,350"/>
+      <path d="M 4955,339 4950,339 4950,329"/>
+      <path d="M 4925,140 4945,140"/>
+      <path d="M 4855,190 4875,190"/>
+      <path d="M 5065,190 5085,190"/>
+      <path d="M 5195,140 5215,140"/>
+      <path d="M 5345,140 5365,140"/>
+      <path d="M 5475,140 5495,140"/>
+      <path d="M 5595,140 5615,140"/>
+      <path d="M 5275,190 5295,190"/>
+      <path d="M 5405,190 5425,190"/>
+      <path d="M 5525,190 5545,190"/>
+      <path d="M 4490,470 4510,470"/>
+      <path d="M 4360,520 4380,520"/>
+      <path d="M 4225,470 4245,470"/>
+      <path d="M 4180,520 4200,520"/>
+      <path d="M 3900,470 3920,470"/>
+      <path d="M 3830,520 3850,520"/>
+      <path d="M 3525,470 3545,470"/>
+      <path d="M 4615,550 4635,550"/>
+      <path d="M 4615,580 4635,580"/>
+      <path d="M 4745,530 4765,530"/>
+      <path d="M 4745,560 4765,560"/>
+      <path d="M 3850,280 3830,280"/>
+      <path d="M 4095,230 4075,230"/>
+      <path d="M 4095,289 4075,289"/>
+      <path d="M 3850,339 3830,339"/>
+      <path d="M 5070,399 5075,399 5075,390"/>
+      <path d="M 5070,369 5075,369 5075,360"/>
+      <path d="M 2880,129 2860,129"/>
+      <path d="M 3000,109 2995,109 2995,119"/>
+      <path d="M 3080,39 3085,39 3085,30"/>
+      <path d="M 2880,189 2860,189"/>
+      <path d="M 2880,139 2860,139"/>
+      <path d="M 3090,129 3070,129"/>
+      <path d="M 3220,109 3200,109"/>
+      <path d="M 3090,99 3070,99"/>
+      <path d="M 3220,79 3200,79"/>
+      <path d="M 3325,69 3305,69"/>
+      <path d="M 3325,129 3305,129"/>
+      <path d="M 3455,49 3435,49"/>
+      <path d="M 3715,99 3695,99"/>
+      <path d="M 3715,49 3695,49"/>
+      <path d="M 3825,99 3805,99"/>
+      <path d="M 3825,49 3805,49"/>
+      <path d="M 3610,19 3590,19"/>
+      <path d="M 3325,99 3305,99"/>
+      <path d="M 3220,79 3200,79"/>
+      <path d="M 4560,349 4540,349"/>
+      <path d="M 4560,399 4540,399"/>
+      <path d="M 3360,280 3340,280"/>
+      <path d="M 3360,339 3340,339"/>
+      <path d="M 3010,189 2990,189"/>
+      <path d="M 3010,139 2990,139"/>
+      <path d="M 3010,139 2990,139"/>
+      <path d="M 4905,429 4910,429 4910,420"/>
+      <path d="M 3960,159 3965,159 3965,150"/>
+    </g>
+    <g id="signal_aspects" class="aspect">
+      <circle cx="3115" cy="610" r="5" id="U3S1038"/>
+      <circle cx="2895" cy="520" r="5" id="U3S1044"/>
+      <circle cx="1285" cy="520" r="5" id="U3S1202"/>
+      <circle cx="1200" cy="520" r="5" id="U3S1204"/>
+      <circle cx="5565" cy="230" r="5" id="WJS141"/>
+      <circle cx="5655" cy="230" r="5" id="WJS143"/>
+      <circle cx="5565" cy="290" r="5" id="WJS345"/>
+      <circle cx="5655" cy="290" r="5" id="WJS347"/>
+      <circle cx="5565" cy="340" r="5" id="WJS342"/>
+      <circle cx="5565" cy="280" r="5" id="WJS138"/>
+      <circle cx="5410" cy="230" r="5" id="WJS139"/>
+      <circle cx="5410" cy="290" r="5" id="WJS343"/>
+      <circle cx="5260" cy="280" r="5" id="WJS136"/>
+      <circle cx="5260" cy="340" r="5" id="WJS340"/>
+      <circle cx="5215" cy="230" r="5" id="WJS137"/>
+      <circle cx="5065" cy="280" r="5" id="WJS134"/>
+      <circle cx="4690" cy="230" r="5" id="WJS135"/>
+      <circle cx="4690" cy="290" r="5" id="WJS339"/>
+      <circle cx="4540" cy="280" r="5" id="WJS132"/>
+      <circle cx="4540" cy="340" r="5"/>
+      <circle cx="5410" cy="340" r="5" id="WJS495"/>
+      <circle cx="5065" cy="290" r="5" id="WJS392"/>
+      <circle cx="5065" cy="340" r="5" id="WJS338"/>
+      <circle cx="5215" cy="290" r="5" id="WJS341"/>
+      <circle cx="5215" cy="340" r="5" id="WJS493"/>
+      <circle cx="4880" cy="380" r="5" id="WJS791"/>
+      <circle cx="4880" cy="410" r="5" id="WJS793"/>
+      <circle cx="4690" cy="350" r="5" id="WJS829"/>
+      <circle cx="4690" cy="380" r="5" id="WJS931"/>
+      <circle cx="4730" cy="370" r="5" id="WJS936"/>
+      <circle cx="4880" cy="350" r="5" id="WJS933"/>
+      <circle cx="4945" cy="140" r="5"/>
+      <circle cx="4855" cy="190" r="5"/>
+      <circle cx="5065" cy="190" r="5"/>
+      <circle cx="5215" cy="140" r="5"/>
+      <circle cx="5365" cy="140" r="5"/>
+      <circle cx="5495" cy="140" r="5"/>
+      <circle cx="5615" cy="140" r="5"/>
+      <circle cx="5275" cy="190" r="5"/>
+      <circle cx="5405" cy="190" r="5"/>
+      <circle cx="5525" cy="190" r="5"/>
+      <circle cx="4510" cy="470" r="5"/>
+      <circle cx="4360" cy="520" r="5"/>
+      <circle cx="4245" cy="470" r="5"/>
+      <circle cx="4180" cy="520" r="5"/>
+      <circle cx="3920" cy="470" r="5"/>
+      <circle cx="3830" cy="520" r="5"/>
+      <circle cx="3545" cy="470" r="5"/>
+      <circle cx="4615" cy="550" r="5"/>
+      <circle cx="4615" cy="580" r="5"/>
+      <circle cx="4765" cy="530" r="5"/>
+      <circle cx="4765" cy="560" r="5"/>
+      <circle cx="3830" cy="280" r="5" id="WJS130"/>
+      <circle cx="4095" cy="230" r="5" id="WJS133"/>
+      <circle cx="4095" cy="289" r="5"/>
+      <circle cx="3830" cy="339" r="5"/>
+      <path id="U3S1200" d="m 1210 485 -10,0 c 0,5 5,10 10,10 z" class="aspect"/>
+      <path id="WJS1252" d="m 5070 365 -10,0 c 0,5 5,10 10,10 z" class="aspect"/>
+      <path id="WJS1254" d="m 5070 395 -10,0 c 0,5 5,10 10,10 z" class="aspect"/>
+      <path id="WJS1256" d="m 5070 425 -10,0 c 0,5 5,10 10,10 z" class="aspect"/>
+      <path id="WJS1251" d="m 4955 335 0,10 10,0 c 0,-5 -5,-10 -10,-10 z" class="aspect"/>
+      <circle cx="2860" cy="129" r="5"/>
+      <path id="path5821" d="m 3000 105 0,10 10,0 c 0,-5 -5,-10 -10,-10 z" class="aspect"/>
+      <path id="path5835" d="m 3080 35 -10,0 c 0,5 5,10 10,10 z" class="aspect"/>
+      <circle cx="2860" cy="189" r="5"/>
+      <circle cx="2860" cy="139" r="5"/>
+      <circle cx="3070" cy="129" r="5"/>
+      <circle cx="3220" cy="109" r="5"/>
+      <circle cx="3070" cy="99" r="5"/>
+      <circle cx="3220" cy="79" r="5"/>
+      <circle cx="3305" cy="69" r="5"/>
+      <circle cx="3305" cy="129" r="5"/>
+      <circle cx="3455" cy="49" r="5"/>
+      <circle cx="3715" cy="99" r="5"/>
+      <circle cx="3715" cy="49" r="5"/>
+      <circle cx="3825" cy="99" r="5"/>
+      <circle cx="3825" cy="49" r="5"/>
+      <circle cx="3610" cy="19" r="5"/>
+      <circle cx="3305" cy="99" r="5"/>
+      <circle cx="3220" cy="79" r="5"/>
+      <circle cx="4540" cy="349" r="5"/>
+      <circle cx="4540" cy="399" r="5"/>
+      <circle cx="3340" cy="280" r="5"/>
+      <circle cx="3340" cy="339" r="5"/>
+      <circle cx="3010" cy="189" r="5"/>
+      <circle cx="3010" cy="139" r="5"/>
+      <circle cx="3010" cy="139" r="5"/>
+      <path id="path9151" d="m 4905 425 -10,0 c 0,5 5,10 10,10 z" class="aspect"/>
+      <path id="path9151-5" d="m 3960 154 -10,0 c 0,5 5,10 10,10 z" class="aspect"/>
+    </g>
+    <g id="indications" class="indication">
+      <g class="text"/>
+      <g class="graphic"/>
+    </g>
+    <g id="route" class="route">
+      <path d="M 5215,329 5410,329" id="WJR493B_M_"/>
+      <path d="M 5215,329 5230,329 5245,299 5410,299" id="WJR493A_M_"/>
+      <path d="M 4690,299 5215,299" id="WJR339A_M_"/>
+      <path d="M 4690,299 4880,299 4895,329 5215,329" id="WJR339B_M_"/>
+      <path d="M 5065,329 5260,329" id="WJR340A_M_"/>
+      <path d="M 5215,299 5410,299" id="WJR341A_M_"/>
+      <path d="M 5260,329 5565,329" id="WJR342A_M_"/>
+      <path d="M 5410,299 5425,299 5440,269 5455,269 5470,239 5565,239" id="WJR343A_M_"/>
+      <path d="M 5410,299 5565,299" id="WJR343B_M_"/>
+      <path d="M 5410,329 5440,329 5455,299 5565,299" id="WJR495A_M_"/>
+      <path d="M 4880,389 4910,389 4925,359 4975,359 4990,329 5020,329 5035,299 5215,299" id="WJR791A_M_"/>
+      <path d="M 4880,389 4910,389 4925,359 4975,359 4990,329 5215,329" id="WJR791B_M_"/>
+      <path d="M 4880,419 4925,419 4940,389 4960,389 4990,329 5020,329 5035,299 5215,299" id="WJR793A_M_"/>
+      <path d="M 4880,419 4925,419 4940,389 4990,389 5005,359 5035,359 5050,329 5215,329" id="WJR793B_M_"/>
+      <path d="M 4690,359 4880,359" id="WJR829A_M_"/>
+      <path d="M 4690,389 4700,389 4715,359 4880,359" id="WJR931A_M_"/>
+      <path d="M 4880,359 4895,359 4910,329 4925,329 4940,299 5215,299" id="WJR933A_M_"/>
+      <path d="M 4880,359 4895,359 4910,329 5215,329" id="WJR933B_M_"/>
+      <path d="M 4540,389 4700,389 4715,359 4730,359" id="WJR936A_M_"/>
+      <path d="M 4540,359 4730,359" id="WJR936B_M_"/>
+      <path d="M 4880,419 4925,419 4940,389 4960,389 4990,329 5020,329 5035,299 5215,299" id="WJR793A_S_"/>
+      <path d="M 4880,419 4925,419 4940,389 4990,389 5005,359 5035,359 5050,329 5215,329" id="WJR793B_S_"/>
+      <path d="M 4880,419 4925,419 4940,389 4990,389 5005,359 5140,359" id="WJR793C_S_"/>
+      <path d="M 4880,419 4925,419 4940,389 4990,389 5005,359 5020,359 5035,389 5140,389" id="WJR793D_S_"/>
+      <path d="M 4880,419 4925,419 4940,389 4990,389 5005,359 5020,359 5050,419 5140,419" id="WJR793E_S_"/>
+      <path d="M 4690,359 4880,359" id="WJR829A_S_"/>
+      <path d="M 4690,389 4700,389 4715,359 4880,359" id="WJR931A_S_"/>
+      <path d="M 4540,359 4730,359" id="WJR936B_S_"/>
+      <path d="M 4540,389 4700,389 4715,359 4730,359" id="WJR936A_S_"/>
+      <path d="M 4960,329 5020,329 5035,299 5215,299" id="WJR1251A"/>
+      <path d="M 4960,329 5215,329" id="WJR1251B"/>
+      <path d="M 4960,329 5215,329" id="WJR1251B_PS_"/>
+      <path d="M 4900,419 4925,419 4940,389 4990,389 5005,359 5065,359" id="WJR1252A"/>
+      <path d="M 4900,419 4925,419 4940,389 4990,389 5005,359 5020,359 5035,389 5065,389" id="WJR1254A"/>
+      <path d="M 4900,419 4925,419 4940,389 4990,389 5005,359 5020,359 5050,419 5065,419" id="WJR1256A"/>
+      <path d="M 3340,269 3830,269" id="WJR130A_M_"/>
+      <path d="M 5260,329 5440,329 5455,299 5470,299 5485,269 5565,269" id="WJR138A_M_"/>
+      <path d="M 5410,239 5565,239" id="WJR139A_M_"/>
+      <path d="M 5260,269 5565,269" id="WJR138B_M_"/>
+      <path d="M 4805,419 4925,419 4940,389 4990,389 5005,359 5035,359 5050,329 5065,329" id="WJR338B_M_"/>
+      <path d="M 4805,419 4925,419 4940,389 4990,389 5005,359 5035,359 5050,329 5065,329" id="WJR338B_C_"/>
+      <path d="M 4805,419 4925,419 4940,389 4990,389 5005,359 5035,359 5050,329 5065,329" id="WJR338C_M_"/>
+      <path d="M 4805,419 4925,419 4940,389 4990,389 5005,359 5035,359 5050,329 5065,329" id="WJR338C_C_"/>
+      <path d="M 4805,389 4910,389 4925,359 4975,359 4990,329 5065,329" id="WJR338D_M_"/>
+      <path d="M 4805,389 4910,389 4925,359 4975,359 4990,329 5065,329" id="WJR338D_C_"/>
+      <path d="M 4730,359 4895,359 4910,329 5065,329" id="WJR338E_M_"/>
+      <path d="M 4730,359 4895,359 4910,329 5065,329" id="WJR338E_S_"/>
+      <path d="M 4540,329 5065,329" id="WJR338F_M_"/>
+      <path d="M 4900,419 4925,419 4940,389 4990,389 5005,359 5035,359 5050,329 5065,329" id="WJR338A_S_"/>
+      <path d="M 4805,419 4925,419 4940,389 4960,389 4990,329 5020,329 5035,299 5065,299" id="WJR392B_M_"/>
+      <path d="M 4805,419 4925,419 4940,389 4960,389 4990,329 5020,329 5035,299 5065,299" id="WJR392B_C_"/>
+      <path d="M 4805,419 4925,419 4940,389 4960,389 4990,329 5020,329 5035,299 5065,299" id="WJR392C_M_"/>
+      <path d="M 4805,419 4925,419 4940,389 4960,389 4990,329 5020,329 5035,299 5065,299" id="WJR392C_C_"/>
+      <path d="M 4805,389 4910,389 4925,359 4975,359 4990,329 5020,329 5035,299 5065,299" id="WJR392D_M_"/>
+      <path d="M 4805,389 4910,389 4925,359 4975,359 4990,329 5020,329 5035,299 5065,299" id="WJR392D_C_"/>
+      <path d="M 4730,359 4895,359 4910,329 4925,329 4940,299 5065,299" id="WJR392E_M_"/>
+      <path d="M 4730,359 4895,359 4910,329 4925,329 4940,299 5065,299" id="WJR392E_S_"/>
+      <path d="M 4540,329 5020,329 5035,299 5065,299" id="WJR392F_M_"/>
+      <path d="M 4915,419 4925,419 4940,389 4960,389 4990,329 5020,329 5035,299 5065,299" id="WJR392A_S_"/>
+    </g>
+    <g id="tc" class="tc"/>
+    <g id="berths">
+      <rect x="70" y="110" width="50" height="20" id="B_WY1029"/>
+      <rect x="70" y="140" width="50" height="20" id="B_WY1027"/>
+      <rect x="220" y="140" width="50" height="20" id="B_WY0103"/>
+      <rect x="130" y="260" width="50" height="20" id="B_WYA012"/>
+      <rect x="10" y="260" width="50" height="20" id="B_WYB012"/>
+      <rect x="130" y="230" width="50" height="20" id="B_WYA013"/>
+      <rect x="10" y="230" width="50" height="20" id="B_WYB013"/>
+      <rect x="130" y="200" width="50" height="20" id="B_WYA014"/>
+      <rect x="10" y="200" width="50" height="20" id="B_WYB014"/>
+      <rect x="130" y="170" width="50" height="20" id="B_WYA015"/>
+      <rect x="10" y="170" width="50" height="20" id="B_WYB015"/>
+      <rect x="160" y="140" width="50" height="20" id="B_WY1026"/>
+      <rect x="130" y="80" width="50" height="20" id="B_WYA016"/>
+      <rect x="10" y="80" width="50" height="20" id="B_WYB016"/>
+      <rect x="130" y="290" width="50" height="20" id="B_WYA011"/>
+      <rect x="70" y="290" width="50" height="20" id="B_WYB011"/>
+      <rect x="10" y="290" width="50" height="20" id="B_WYC011"/>
+      <rect x="130" y="350" width="50" height="20" id="B_WYA009"/>
+      <rect x="70" y="350" width="50" height="20" id="B_WYB009"/>
+      <rect x="10" y="350" width="50" height="20" id="B_WYC009"/>
+      <rect x="130" y="320" width="50" height="20" id="B_WYA010"/>
+      <rect x="70" y="320" width="50" height="20" id="B_WYB010"/>
+      <rect x="10" y="320" width="50" height="20" id="B_WYC010"/>
+      <rect x="130" y="560" width="50" height="20" id="B_WYA002"/>
+      <rect x="130" y="590" width="50" height="20" id="B_WYA001"/>
+      <rect x="130" y="500" width="50" height="20" id="B_WYA004"/>
+      <rect x="130" y="530" width="50" height="20" id="B_WYA003"/>
+      <rect x="130" y="440" width="50" height="20" id="B_WYA006"/>
+      <rect x="130" y="470" width="50" height="20" id="B_WYA005"/>
+      <rect x="130" y="410" width="50" height="20" id="B_WYA007"/>
+      <rect x="130" y="380" width="50" height="20" id="B_WYA008"/>
+      <rect x="10" y="560" width="50" height="20" id="B_WYB002"/>
+      <rect x="10" y="590" width="50" height="20" id="B_WYB001"/>
+      <rect x="10" y="500" width="50" height="20" id="B_WYB004"/>
+      <rect x="10" y="530" width="50" height="20" id="B_WYB003"/>
+      <rect x="10" y="440" width="50" height="20" id="B_WYB006"/>
+      <rect x="10" y="470" width="50" height="20" id="B_WYB005"/>
+      <rect x="10" y="410" width="50" height="20" id="B_WYB007"/>
+      <rect x="70" y="380" width="50" height="20" id="B_WYB008"/>
+      <rect x="10" y="380" width="50" height="20" id="B_WYC008"/>
+      <rect x="560" y="530" width="50" height="20" id="B_WY1032"/>
+      <rect x="560" y="500" width="50" height="20" id="B_WY1034"/>
+      <rect x="475" y="500" width="50" height="20" id="B_WY0818"/>
+      <rect x="780" y="140" width="50" height="20" id="B_WY0705"/>
+      <rect x="535" y="230" width="50" height="20" id="B_WY0105"/>
+      <rect x="595" y="290" width="50" height="20" id="B_WY0102"/>
+      <rect x="595" y="320" width="50" height="20" id="B_WY0284"/>
+      <rect x="535" y="380" width="50" height="20" id="B_WY0473"/>
+      <rect x="595" y="410" width="50" height="20" id="B_WY0488"/>
+      <rect x="595" y="470" width="50" height="20" id="B_WY0510"/>
+      <rect x="595" y="230" width="50" height="20" id="B_WY0608"/>
+      <rect x="535" y="290" width="50" height="20" id="B_WY0287"/>
+      <rect x="535" y="320" width="50" height="20" id="B_WY0309"/>
+      <rect x="595" y="380" width="50" height="20" id="B_WY0306"/>
+      <rect x="655" y="470" width="50" height="20" id="B_WY0603"/>
+      <rect x="515" y="140" width="50" height="20" id="B_WY1046"/>
+      <rect x="910" y="230" width="50" height="20" id="B_WY0605"/>
+      <rect x="910" y="200" width="50" height="20" id="B_WY0107"/>
+      <rect x="845" y="290" width="50" height="20" id="B_WY0289"/>
+      <rect x="845" y="320" width="50" height="20" id="B_WY0311"/>
+      <rect x="1015" y="200" width="50" height="20" id="B_WY0610"/>
+      <rect x="1015" y="230" width="50" height="20" id="B_WY0512"/>
+      <rect x="1015" y="290" width="50" height="20" id="B_WY0104"/>
+      <rect x="1015" y="320" width="50" height="20" id="B_WY0286"/>
+      <rect x="1015" y="380" width="50" height="20" id="B_WY0308"/>
+      <rect x="1015" y="410" width="50" height="20" id="B_WY0490"/>
+      <rect x="1160" y="320" width="50" height="20" id="B_WY0313"/>
+      <rect x="1220" y="320" width="50" height="20" id="B_WY0288"/>
+      <rect x="1160" y="230" width="50" height="20" id="B_WY0109"/>
+      <rect x="1160" y="290" width="50" height="20" id="B_WY0291"/>
+      <rect x="1220" y="290" width="50" height="20" id="B_WY0106"/>
+      <rect x="1220" y="380" width="50" height="20" id="B_WY0310"/>
+      <rect x="1220" y="410" width="50" height="20" id="B_WY0492"/>
+      <rect x="1160" y="200" width="50" height="20" id="B_WY1051"/>
+      <rect x="1245" y="170" width="50" height="20" id="B_WY0632"/>
+      <rect x="1410" y="290" width="50" height="20" id="B_WY0108"/>
+      <rect x="1350" y="230" width="50" height="20" id="B_WY0111"/>
+      <rect x="1350" y="320" width="50" height="20" id="B_WY0315"/>
+      <rect x="1410" y="410" width="50" height="20" id="B_WY0494"/>
+      <rect x="1410" y="380" width="50" height="20" id="B_WY0312"/>
+      <rect x="1810" y="230" width="50" height="20" id="B_WY0113"/>
+      <rect x="1810" y="290" width="50" height="20" id="B_WY0317"/>
+      <rect x="1745" y="260" width="50" height="20" id="B_WY0110"/>
+      <rect x="1885" y="320" width="50" height="20" id="B_WY0314"/>
+      <rect x="1460" y="500" width="50" height="20" id="B_WY0706"/>
+      <rect x="1485" y="470" width="50" height="20" id="B_WY0803"/>
+      <rect x="1460" y="530" width="50" height="20" id="B_WY0800"/>
+      <rect x="1370" y="470" width="50" height="20" id="B_WY0801"/>
+      <rect x="1590" y="410" width="50" height="20" id="B_WY0900"/>
+      <rect x="1885" y="230" width="50" height="20" id="B_WY0115"/>
+      <rect x="1885" y="290" width="50" height="20" id="B_WY0319"/>
+      <rect x="1945" y="260" width="50" height="20" id="B_WY0112"/>
+      <rect x="1945" y="320" width="50" height="20" id="B_WY0316"/>
+      <rect x="1880" y="410" width="50" height="20" id="B_WY0903"/>
+      <rect x="1805" y="440" width="50" height="20" id="B_WY0902"/>
+      <rect x="2030" y="440" width="50" height="20" id="B_WY0904"/>
+      <rect x="2025" y="230" width="50" height="20" id="B_WY0117"/>
+      <rect x="2145" y="230" width="50" height="20" id="B_WY0119"/>
+      <rect x="2025" y="290" width="50" height="20" id="B_WY0321"/>
+      <rect x="2145" y="290" width="50" height="20" id="B_WY0323"/>
+      <rect x="2085" y="260" width="50" height="20" id="B_WY0114"/>
+      <rect x="2145" y="260" width="50" height="20" id="B_WY0116"/>
+      <rect x="2085" y="320" width="50" height="20" id="B_WY0318"/>
+      <rect x="2145" y="320" width="50" height="20" id="B_WY0320"/>
+      <rect x="2205" y="290" width="50" height="20" id="B_WY1161"/>
+      <rect x="2375" y="230" width="50" height="20" id="B_WY0121"/>
+      <rect x="2375" y="290" width="50" height="20" id="B_WY0325"/>
+      <rect x="2315" y="320" width="50" height="20" id="B_WY0322"/>
+      <rect x="2315" y="260" width="50" height="20" id="B_WY0118"/>
+      <rect x="2375" y="350" width="50" height="20" id="B_WY0723"/>
+      <rect x="2315" y="350" width="50" height="20" id="B_WY0722"/>
+      <rect x="2560" y="230" width="50" height="20" id="B_WY0123"/>
+      <rect x="2560" y="290" width="50" height="20" id="B_WY0327"/>
+      <rect x="2620" y="290" width="50" height="20" id="B_WY0329"/>
+      <rect x="2560" y="260" width="50" height="20" id="B_WY0120"/>
+      <rect x="2560" y="320" width="50" height="20" id="B_WY0324"/>
+      <rect x="2620" y="320" width="50" height="20" id="B_WY0326"/>
+      <rect x="2620" y="260" width="50" height="20" id="B_WY0122"/>
+      <rect x="2030" y="410" width="50" height="20" id="B_WSA003"/>
+      <rect x="2175" y="440" width="50" height="20" id="B_WS0002"/>
+      <rect x="2175" y="410" width="50" height="20" id="B_WS0005"/>
+      <rect x="2235" y="440" width="50" height="20" id="B_WS0007"/>
+      <rect x="2405" y="470" width="50" height="20" id="B_WS0004"/>
+      <rect x="2405" y="380" width="50" height="20" id="B_WS0006"/>
+      <rect x="2465" y="380" width="50" height="20" id="B_WS0011"/>
+      <rect x="2405" y="440" width="50" height="20" id="B_WSBSLS"/>
+      <rect x="2465" y="410" width="50" height="20" id="B_WSA013"/>
+      <rect x="2620" y="440" width="50" height="20" id="B_WS0012"/>
+      <rect x="2620" y="410" width="50" height="20" id="B_WS0017"/>
+      <rect x="2555" y="440" width="50" height="20" id="B_WS0008"/>
+      <rect x="2555" y="410" width="50" height="20" id="B_WS0015"/>
+      <rect x="2850" y="230" width="50" height="20" id="B_WY0127"/>
+      <rect x="2855" y="290" width="50" height="20" id="B_WY0331"/>
+      <rect x="2795" y="320" width="50" height="20" id="B_WY0328"/>
+      <rect x="2790" y="260" width="50" height="20" id="B_WY0124"/>
+      <rect x="2855" y="350" width="50" height="20" id="B_WY0725"/>
+      <rect x="2795" y="350" width="50" height="20" id="B_WY0724"/>
+      <rect x="2940" y="350" width="50" height="20" id="B_WY1180"/>
+      <rect x="3025" y="380" width="50" height="20" id="B_WY1181"/>
+      <rect x="3170" y="230" width="50" height="20" id="B_WY0129"/>
+      <rect x="3170" y="290" width="50" height="20" id="B_WY0333"/>
+      <rect x="3170" y="260" width="50" height="20" id="B_WY0126"/>
+      <rect x="3170" y="320" width="50" height="20" id="B_WY0330"/>
+      <rect x="2880" y="140" width="50" height="20" id="B_WY0916"/>
+      <rect x="2880" y="169" width="50" height="20" id="B_WY0812"/>
+      <rect x="2940" y="140" width="50" height="20" id="B_WY0813"/>
+      <rect x="2940" y="170" width="50" height="20" id="B_WY0915"/>
+      <rect x="3295" y="140" width="50" height="20" id="B_WY0918"/>
+      <rect x="3295" y="170" width="50" height="20" id="B_WY0814"/>
+      <rect x="3355" y="170" width="50" height="20" id="B_WY0917"/>
+      <rect x="3355" y="140" width="50" height="20" id="B_WY0815"/>
+      <rect x="3285" y="230" width="50" height="20" id="B_WY0131"/>
+      <rect x="3285" y="290" width="50" height="20" id="B_WY0335"/>
+      <rect x="3360" y="320" width="50" height="20" id="B_WY0332"/>
+      <rect x="3360" y="260" width="50" height="20" id="B_WY0128"/>
+      <rect x="3560" y="410" width="50" height="20" id="B_WY1201"/>
+      <rect x="3195" y="560" width="50" height="20" id="B_WY0675"/>
+      <rect x="3195" y="590" width="50" height="20" id="B_WY0672"/>
+      <rect x="3135" y="590" width="50" height="20" id="B_U31038"/>
+      <rect x="3255" y="590" width="50" height="20" id="B_WY1193"/>
+      <rect x="3560" y="380" width="50" height="20" id="B_WY0754"/>
+      <rect x="5280" y="320" width="50" height="20" id="B_WJ0340"/>
+      <rect x="5280" y="260" width="50" height="20" id="B_WJ0136"/>
+      <rect x="5340" y="320" width="50" height="20" id="B_WJ0495"/>
+      <rect x="5340" y="290" width="50" height="20" id="B_WJ0343"/>
+      <rect x="5340" y="230" width="50" height="20" id="B_WJ0139"/>
+      <rect x="5585" y="320" width="50" height="20" id="B_WJ0342"/>
+      <rect x="5585" y="260" width="50" height="20" id="B_WJ0138"/>
+      <rect x="5495" y="290" width="50" height="20" id="B_WJ0345"/>
+      <rect x="5495" y="230" width="50" height="20" id="B_WJ0141"/>
+      <rect x="5585" y="290" width="50" height="20" id="B_WJ0347"/>
+      <rect x="5585" y="230" width="50" height="20" id="B_WJ0143"/>
+      <rect x="5425" y="170" width="50" height="20" id="B_WS0048"/>
+      <rect x="5425" y="140" width="50" height="20" id="B_WS0047"/>
+      <rect x="5295" y="170" width="50" height="20" id="B_WS0046"/>
+      <rect x="5295" y="140" width="50" height="20" id="B_WS0045"/>
+      <rect x="5545" y="170" width="50" height="20" id="B_WS0052"/>
+      <rect x="5545" y="140" width="50" height="20" id="B_WS0051"/>
+      <rect x="5085" y="320" width="50" height="20" id="B_WJ0338"/>
+      <rect x="5085" y="290" width="50" height="20" id="B_WJ0392"/>
+      <rect x="4750" y="350" width="50" height="20" id="B_WJ0936"/>
+      <rect x="4810" y="350" width="50" height="20" id="B_WJ0933"/>
+      <rect x="4560" y="320" width="50" height="20" id="B_WJ0336"/>
+      <rect x="4560" y="260" width="50" height="20" id="B_WJ0132"/>
+      <rect x="5085" y="260" width="50" height="20" id="B_WJ0134"/>
+      <rect x="5145" y="230" width="50" height="20" id="B_WJ0137"/>
+      <rect x="5085" y="170" width="50" height="20" id="B_WS0044"/>
+      <rect x="5145" y="140" width="50" height="20" id="B_WS0043"/>
+      <rect x="4620" y="380" width="50" height="20" id="B_WJ0931"/>
+      <rect x="4620" y="350" width="50" height="20" id="B_WJ0829"/>
+      <rect x="4560" y="380" width="50" height="20" id="B_WY0830"/>
+      <rect x="4560" y="350" width="50" height="20" id="B_WY0934"/>
+      <rect x="4620" y="290" width="50" height="20" id="B_WJ0339"/>
+      <rect x="4620" y="230" width="50" height="20" id="B_WJ0135"/>
+      <rect x="4430" y="380" width="50" height="20" id="B_WY0929"/>
+      <rect x="4430" y="350" width="50" height="20" id="B_WY0827"/>
+      <rect x="4300" y="380" width="50" height="20" id="B_WY0828"/>
+      <rect x="4300" y="350" width="50" height="20" id="B_WY0932"/>
+      <rect x="4215" y="380" width="50" height="20" id="B_WY0927"/>
+      <rect x="4215" y="350" width="50" height="20" id="B_WY0825"/>
+      <rect x="4025" y="350" width="50" height="20" id="B_WY0781"/>
+      <rect x="4025" y="230" width="50" height="20" id="B_WJ0133"/>
+      <rect x="4025" y="290" width="50" height="20" id="B_WY0337"/>
+      <rect x="3850" y="260" width="50" height="20" id="B_WJ0130"/>
+      <rect x="3850" y="320" width="50" height="20" id="B_WJ0334"/>
+      <rect x="5145" y="320" width="50" height="20" id="B_WJ0493"/>
+      <rect x="5145" y="290" width="50" height="20" id="B_WJ0341"/>
+      <rect x="4875" y="170" width="50" height="20" id="B_WS0042"/>
+      <rect x="4875" y="140" width="50" height="20" id="B_WS0041"/>
+      <rect x="2795" y="440" width="50" height="20" id="B_WS0014"/>
+      <rect x="2795" y="410" width="50" height="20" id="B_WS0021"/>
+      <rect x="2405" y="410" width="50" height="20" id="B_WSB013"/>
+      <rect x="2915" y="470" width="50" height="20" id="B_WS0023"/>
+      <rect x="2915" y="500" width="50" height="20" id="B_U31044"/>
+      <rect x="2915" y="410" width="50" height="20" id="B_WS0301"/>
+      <rect x="3095" y="440" width="50" height="20" id="B_WS0018"/>
+      <rect x="3155" y="410" width="50" height="20" id="B_WS0025"/>
+      <rect x="3095" y="470" width="50" height="20" id="B_WS0022"/>
+      <rect x="3850" y="500" width="50" height="20" id="B_WS0024"/>
+      <rect x="3850" y="470" width="50" height="20" id="B_WS0033"/>
+      <rect x="3475" y="470" width="50" height="20" id="B_WS0031"/>
+      <rect x="4380" y="500" width="50" height="20" id="B_WS0028"/>
+      <rect x="4440" y="470" width="50" height="20" id="B_WS0037"/>
+      <rect x="4440" y="500" width="50" height="20" id="B_WS0304"/>
+      <rect x="4175" y="470" width="50" height="20" id="B_WS0035"/>
+      <rect x="4200" y="500" width="50" height="20" id="B_WS0026"/>
+      <rect x="4695" y="530" width="50" height="20" id="B_WS0036"/>
+      <rect x="4695" y="560" width="50" height="20" id="B_WS0038"/>
+      <rect x="4635" y="530" width="50" height="20" id="B_WS0032"/>
+      <rect x="4635" y="560" width="50" height="20" id="B_WS0034"/>
+      <rect x="2620" y="230" width="50" height="20" id="B_WY0125"/>
+      <rect x="3980" y="410" width="50" height="20" id="B_WY0823"/>
+      <rect x="3980" y="440" width="50" height="20" id="B_WY0925"/>
+      <rect x="4040" y="410" width="50" height="20" id="B_WY0928"/>
+      <rect x="4040" y="440" width="50" height="20" id="B_WY0826"/>
+      <rect x="3680" y="350" width="50" height="20" id="B_WY0758"/>
+      <rect x="3670" y="140" width="50" height="20" id="B_WY0819"/>
+      <rect x="3670" y="170" width="50" height="20" id="B_WY0921"/>
+      <rect x="3730" y="140" width="50" height="20" id="B_WY0924"/>
+      <rect x="3730" y="170" width="50" height="20" id="B_WY0822"/>
+      <rect x="3790" y="140" width="50" height="20" id="B_WY0821"/>
+      <rect x="3790" y="170" width="50" height="20" id="B_WY0923"/>
+      <rect x="3850" y="140" width="50" height="20" id="B_WY0926"/>
+      <rect x="3850" y="170" width="50" height="20" id="B_WY0824"/>
+      <rect x="3475" y="140" width="50" height="20" id="B_WY0817"/>
+      <rect x="3475" y="170" width="50" height="20" id="B_WY0919"/>
+      <rect x="3415" y="140" width="50" height="20" id="B_WY0920"/>
+      <rect x="3415" y="170" width="50" height="20" id="B_WY0816"/>
+      <rect x="3535" y="140" width="50" height="20" id="B_WY0922"/>
+      <rect x="3535" y="170" width="50" height="20" id="B_WY0820"/>
+      <rect x="1245" y="200" width="50" height="20" id="B_WY0520"/>
+      <rect x="1305" y="500" width="50" height="20" id="B_U31202"/>
+      <rect x="1220" y="500" width="50" height="20" id="B_U31204"/>
+      <rect x="1220" y="470" width="50" height="20" id="B_U31200"/>
+      <rect x="3560" y="440" width="50" height="20"/>
+      <rect x="3025" y="350" width="50" height="20" id="B_WY1183"/>
+      <rect x="5085" y="350" width="50" height="20" id="B_WJ1252"/>
+      <rect x="4810" y="380" width="50" height="20" id="B_WJ0791"/>
+      <rect x="4810" y="410" width="50" height="20" id="B_WJ0793"/>
+      <rect x="5085" y="380" width="50" height="20" id="B_WY1254"/>
+      <rect x="5085" y="410" width="50" height="20" id="B_WY1256"/>
+      <rect x="2940" y="109" width="50" height="20" id="B_WY1185"/>
+      <rect x="2880" y="109" width="50" height="20" id="B_WY0622"/>
+      <rect x="3090" y="20" width="50" height="20" id="B_WY1182"/>
+      <rect x="3090" y="110" width="50" height="20" id="B_WY0624"/>
+      <rect x="3150" y="110" width="50" height="20" id="B_WY0741"/>
+      <rect x="3090" y="80" width="50" height="20" id="B_WY0738"/>
+      <rect x="3150" y="80" width="50" height="20" id="B_WY0621"/>
+      <rect x="3325" y="50" width="50" height="20" id="B_WY0748"/>
+      <rect x="3325" y="110" width="50" height="20" id="B_WY0740"/>
+      <rect x="3385" y="50" width="50" height="20" id="B_WY0799"/>
+      <rect x="3645" y="80" width="50" height="20" id="B_WY0743"/>
+      <rect x="3645" y="50" width="50" height="20" id="B_WY0623"/>
+      <rect x="3755" y="80" width="50" height="20" id="B_AW0150"/>
+      <rect x="3755" y="50" width="50" height="20" id="B_AW0149"/>
+      <rect x="3540" y="20" width="50" height="20" id="B_WY0797"/>
+      <rect x="3325" y="80" width="50" height="20" id="B_WY0744"/>
+      <rect x="2375" y="320" width="50" height="20" id="B_WY1163"/>
+      <rect x="3970" y="140" width="50" height="20" id="B_WY1210"/>
+      <rect x="3155" y="470" width="50" height="20" id="B_WS0027"/>
+      <rect x="130" y="20" width="50" height="20" id="B_WYA101"/>
+      <rect x="10" y="20" width="50" height="20" id="B_WYB101"/>
+    </g>
+    <g id="descrs" class="berth">
+      <text id="WYA012" x="136" y="276">XXXX</text>
+      <text id="WYB012" x="16" y="276">XXXX</text>
+      <text id="WYA013" x="136" y="246">XXXX</text>
+      <text id="WYB013" x="16" y="246">XXXX</text>
+      <text id="WYA014" x="136" y="216">XXXX</text>
+      <text id="WYB014" x="16" y="216">XXXX</text>
+      <text id="WY1029" x="76" y="126">XXXX</text>
+      <text id="WY1027" x="76" y="156">XXXX</text>
+      <text id="WY0103" x="226" y="156">XXXX</text>
+      <text id="WYA015" x="136" y="186">XXXX</text>
+      <text id="WYB015" x="16" y="186">XXXX</text>
+      <text id="WY1026" x="166" y="156">XXXX</text>
+      <text id="WYA016" x="136" y="96">XXXX</text>
+      <text id="WYB016" x="16" y="96">XXXX</text>
+      <text id="WYA011" x="136" y="306">XXXX</text>
+      <text id="WYB011" x="76" y="306">XXXX</text>
+      <text id="WYC011" x="16" y="306">XXXX</text>
+      <text id="WYA009" x="136" y="366">XXXX</text>
+      <text id="WYB009" x="76" y="366">XXXX</text>
+      <text id="WYC009" x="16" y="366">XXXX</text>
+      <text id="WYA010" x="136" y="336">XXXX</text>
+      <text id="WYB010" x="76" y="335">XXXX</text>
+      <text id="WYC010" x="16" y="336">XXXX</text>
+      <text id="WYA002" x="136" y="576">XXXX</text>
+      <text id="WYA001" x="136" y="606">XXXX</text>
+      <text id="WYB002" x="16" y="576">XXXX</text>
+      <text id="WYB001" x="16" y="606">XXXX</text>
+      <text id="WYA004" x="136" y="516">XXXX</text>
+      <text id="WYA003" x="137" y="546">XXXX</text>
+      <text id="WYB004" x="15" y="516">XXXX</text>
+      <text id="WYB003" x="16" y="546">XXXX</text>
+      <text id="WYA006" x="136" y="456">XXXX</text>
+      <text id="WYA005" x="136" y="486">XXXX</text>
+      <text id="WYB006" x="16" y="456">XXXX</text>
+      <text id="WYB005" x="16" y="486">XXXX</text>
+      <text id="WYA007" x="136" y="426">XXXX</text>
+      <text id="WYB007" x="16" y="426">XXXX</text>
+      <text id="WYA008" x="136" y="396">XXXX</text>
+      <text id="WYB008" x="76" y="396">XXXX</text>
+      <text id="WYC008" x="16" y="396">XXXX</text>
+      <text id="WY1032" x="565" y="546">XXXX</text>
+      <text id="WY1034" x="565" y="516">XXXX</text>
+      <text id="WY0818" x="481" y="516">XXXX</text>
+      <text id="WY0705" x="786" y="155">XXXX</text>
+      <text id="WY0105" x="541" y="246">XXXX</text>
+      <text id="WY0608" x="601" y="246">XXXX</text>
+      <text id="WY0102" x="601" y="306">XXXX</text>
+      <text id="WY0287" x="541" y="306">XXXX</text>
+      <text id="WY0284" x="601" y="336">XXXX</text>
+      <text id="WY0309" x="541" y="336">XXXX</text>
+      <text id="WY0473" x="541" y="396">XXXX</text>
+      <text id="WY0306" x="601" y="396">XXXX</text>
+      <text id="WY0488" x="601" y="426">XXXX</text>
+      <text id="WY0510" x="601" y="486">XXXX</text>
+      <text id="WY0603" x="661" y="486">XXXX</text>
+      <text id="WY1046" x="521" y="155">XXXX</text>
+      <text id="WY0107" x="916" y="216">XXXX</text>
+      <text id="WY0605" x="916" y="246">XXXX</text>
+      <text id="WY0289" x="850" y="306">XXXX</text>
+      <text id="WY0311" x="851" y="336">XXXX</text>
+      <text id="WY0610" x="1021" y="216">XXXX</text>
+      <text id="WY0512" x="1021" y="246">XXXX</text>
+      <text id="WY0104" x="1021" y="306">XXXX</text>
+      <text id="WY0286" x="1021" y="336">XXXX</text>
+      <text id="WY0308" x="1021" y="396">XXXX</text>
+      <text id="WY0490" x="1021" y="426">XXXX</text>
+      <text id="WY0109" x="1166" y="246">XXXX</text>
+      <text id="WY0291" x="1166" y="306">XXXX</text>
+      <text id="WY0313" x="1166" y="336">XXXX</text>
+      <text id="WY0106" x="1226" y="306">XXXX</text>
+      <text id="WY0288" x="1226" y="336">XXXX</text>
+      <text id="WY0310" x="1226" y="396">XXXX</text>
+      <text id="WY0492" x="1226" y="426">XXXX</text>
+      <text id="WY1051" x="1166" y="216">XXXX</text>
+      <text id="WY0632" x="1251" y="186">XXXX</text>
+      <text id="WY0108" x="1416" y="306">XXXX</text>
+      <text id="WY0111" x="1356" y="246">XXXX</text>
+      <text id="WY0315" x="1356" y="336">XXXX</text>
+      <text id="WY0312" x="1416" y="396">XXXX</text>
+      <text id="WY0494" x="1416" y="426">XXXX</text>
+      <text id="WY0113" x="1816" y="246">XXXX</text>
+      <text id="WY0317" x="1816" y="306">XXXX</text>
+      <text id="WY0110" x="1751" y="276">XXXX</text>
+      <text id="WY0314" x="1891" y="336">XXXX</text>
+      <text id="WY0803" x="1491" y="486">XXXX</text>
+      <text id="WY0706" x="1466" y="516">XXXX</text>
+      <text id="WY0900" x="1596" y="426">XXXX</text>
+      <text id="WY0800" x="1466" y="546">XXXX</text>
+      <text id="WY0801" x="1376" y="486">XXXX</text>
+      <text id="WY0115" x="1891" y="246">XXXX</text>
+      <text id="WY0319" x="1891" y="306">XXXX</text>
+      <text id="WY0112" x="1951" y="276">XXXX</text>
+      <text id="WY0316" x="1951" y="336">XXXX</text>
+      <text id="WY0903" x="1886" y="426">XXXX</text>
+      <text id="WY0902" x="1811" y="456">XXXX</text>
+      <text id="WY0904" x="2036" y="456">XXXX</text>
+      <text id="WY0117" x="2031" y="246">XXXX</text>
+      <text id="WY0119" x="2151" y="246">XXXX</text>
+      <text id="WY0321" x="2031" y="306">XXXX</text>
+      <text id="WY0323" x="2151" y="306">XXXX</text>
+      <text id="WY0114" x="2091" y="276">XXXX</text>
+      <text id="WY0116" x="2151" y="276">XXXX</text>
+      <text id="WY0318" x="2091" y="336">XXXX</text>
+      <text id="WY0320" x="2151" y="336">XXXX</text>
+      <text id="WY1161" x="2210" y="305">XXXX</text>
+      <text id="WY0121" x="2381" y="245">XXXX</text>
+      <text id="WY0325" x="2381" y="305">XXXX</text>
+      <text id="WY0322" x="2321" y="336">XXXX</text>
+      <text id="WY0118" x="2321" y="276">XXXX</text>
+      <text id="WY0723" x="2381" y="366">XXXX</text>
+      <text id="WY0722" x="2321" y="366">XXXX</text>
+      <text id="WY0123" x="2566" y="246">XXXX</text>
+      <text id="WY0327" x="2566" y="306">XXXX</text>
+      <text id="WY0329" x="2626" y="306">XXXX</text>
+      <text id="WY0120" x="2566" y="276">XXXX</text>
+      <text id="WY0324" x="2566" y="336">XXXX</text>
+      <text id="WY0326" x="2626" y="336">XXXX</text>
+      <text id="WY0122" x="2626" y="276">XXXX</text>
+      <text id="WSA003" x="2036" y="426">XXXX</text>
+      <text id="WS0002" x="2181" y="456">XXXX</text>
+      <text id="WS0005" x="2181" y="426">XXXX</text>
+      <text id="WS0007" x="2241" y="456">XXXX</text>
+      <text id="WS0004" x="2411" y="486">XXXX</text>
+      <text id="WS0006" x="2411" y="396">XXXX</text>
+      <text id="WS0011" x="2471" y="396">XXXX</text>
+      <text id="WSBSLS" x="2411" y="456">XXXX</text>
+      <text id="WSA013" x="2471" y="426">XXXX</text>
+      <text id="WS0012" x="2626" y="456">XXXX</text>
+      <text id="WS0017" x="2626" y="426">XXXX</text>
+      <text id="WS0008" x="2561" y="456">XXXX</text>
+      <text id="WS0015" x="2561" y="426">XXXX</text>
+      <text id="WY0127" x="2856" y="246">XXXX</text>
+      <text id="WY0331" x="2861" y="306">XXXX</text>
+      <text id="WY0328" x="2801" y="336">XXXX</text>
+      <text id="WY0124" x="2796" y="276">XXXX</text>
+      <text id="WY0725" x="2861" y="366">XXXX</text>
+      <text id="WY0724" x="2801" y="366">XXXX</text>
+      <text id="WY1180" x="2946" y="366">XXXX</text>
+      <text id="WY1183" x="3031" y="366">XXXX</text>
+      <text id="WY1181" x="3031" y="396">XXXX</text>
+      <text id="WY0129" x="3176" y="246">XXXX</text>
+      <text id="WY0333" x="3176" y="306">XXXX</text>
+      <text id="WY0126" x="3176" y="276">XXXX</text>
+      <text id="WY0330" x="3176" y="336">XXXX</text>
+      <text id="WY0916" x="2886" y="155">XXXX</text>
+      <text id="WY0812" x="2886" y="185">XXXX</text>
+      <text id="WY0813" x="2946" y="155">XXXX</text>
+      <text id="WY0915" x="2946" y="185">XXXX</text>
+      <text id="WY0918" x="3301" y="156">XXXX</text>
+      <text id="WY0814" x="3301" y="186">XXXX</text>
+      <text id="WY0815" x="3361" y="156">XXXX</text>
+      <text id="WY0917" x="3361" y="186">XXXX</text>
+      <text id="WY0131" x="3291" y="246">XXXX</text>
+      <text id="WY0128" x="3366" y="276">XXXX</text>
+      <text id="WY0332" x="3366" y="336">XXXX</text>
+      <text id="WY0335" x="3291" y="306">XXXX</text>
+      <text id="WY0817" x="3481" y="156">XXXX</text>
+      <text id="WY0919" x="3481" y="186">XXXX</text>
+      <text id="WY0920" x="3421" y="156">XXXX</text>
+      <text id="WY0816" x="3421" y="186">XXXX</text>
+      <text id="WY1201" x="3566" y="426">XXXX</text>
+      <text id="WY0922" x="3541" y="156">XXXX</text>
+      <text id="WY0820" x="3541" y="186">XXXX</text>
+      <text id="WY0675" x="3201" y="576">XXXX</text>
+      <text id="WY0672" x="3201" y="606">XXXX</text>
+      <text id="U31038" x="3140" y="606">XXXX</text>
+      <text id="WY1193" x="3260" y="606">XXXX</text>
+      <text id="WY0754" x="3566" y="396">XXXX</text>
+      <text id="WJ0340" x="5286" y="336">XXXX</text>
+      <text id="WJ0136" x="5286" y="276">XXXX</text>
+      <text id="WJ0495" x="5346" y="336">XXXX</text>
+      <text id="WJ0343" x="5346" y="306">XXXX</text>
+      <text id="WJ0139" x="5346" y="246">XXXX</text>
+      <text id="WJ0342" x="5591" y="336">XXXX</text>
+      <text id="WJ0138" x="5591" y="276">XXXX</text>
+      <text id="WJ0345" x="5501" y="306">XXXX</text>
+      <text id="WJ0141" x="5501" y="246">XXXX</text>
+      <text id="WJ0347" x="5591" y="306">XXXX</text>
+      <text id="WJ0143" x="5591" y="246">XXXX</text>
+      <text id="WS0048" x="5431" y="186">XXXX</text>
+      <text id="WS0047" x="5431" y="156">XXXX</text>
+      <text id="WS0046" x="5301" y="186">XXXX</text>
+      <text id="WS0045" x="5301" y="156">XXXX</text>
+      <text id="WS0052" x="5551" y="186">XXXX</text>
+      <text id="WS0051" x="5551" y="156">XXXX</text>
+      <text id="WJ0338" x="5091" y="336">XXXX</text>
+      <text id="WJ0392" x="5091" y="306">XXXX</text>
+      <text id="WJ0936" x="4756" y="366">XXXX</text>
+      <text id="WJ0933" x="4816" y="366">XXXX</text>
+      <text id="WJ0339" x="4626" y="306">XXXX</text>
+      <text id="WJ0135" x="4626" y="246">XXXX</text>
+      <text id="WJ0134" x="5091" y="276">XXXX</text>
+      <text id="WJ0137" x="5151" y="246">XXXX</text>
+      <text id="WS0044" x="5091" y="186">XXXX</text>
+      <text id="WS0043" x="5151" y="156">XXXX</text>
+      <text id="WJ0931" x="4626" y="396">XXXX</text>
+      <text id="WJ0829" x="4626" y="366">XXXX</text>
+      <text id="WY0830" x="4566" y="396">XXXX</text>
+      <text id="WY0934" x="4566" y="366">XXXX</text>
+      <text id="WJ0336" x="4566" y="336">XXXX</text>
+      <text id="WJ0132" x="4566" y="276">XXXX</text>
+      <text id="WY0929" x="4436" y="396">XXXX</text>
+      <text id="WY0827" x="4436" y="366">XXXX</text>
+      <text id="WY0828" x="4306" y="396">XXXX</text>
+      <text id="WY0932" x="4306" y="366">XXXX</text>
+      <text id="WY0927" x="4221" y="396">XXXX</text>
+      <text id="WY0825" x="4221" y="366">XXXX</text>
+      <text id="WY0819" x="3676" y="156">XXXX</text>
+      <text id="WY0921" x="3676" y="186">XXXX</text>
+      <text id="WY0924" x="3736" y="156">XXXX</text>
+      <text id="WY0822" x="3736" y="186">XXXX</text>
+      <text id="WY0758" x="3686" y="366">XXXX</text>
+      <text id="WY0821" x="3796" y="156">XXXX</text>
+      <text id="WY0923" x="3796" y="186">XXXX</text>
+      <text id="WY0926" x="3856" y="156">XXXX</text>
+      <text id="WY0824" x="3856" y="186">XXXX</text>
+      <text id="WY0781" x="4031" y="366">XXXX</text>
+      <text id="WJ0133" x="4031" y="246">XXXX</text>
+      <text id="WY0337" x="4031" y="306">XXXX</text>
+      <text id="WJ0130" x="3856" y="276">XXXX</text>
+      <text id="WJ0334" x="3856" y="336">XXXX</text>
+      <text id="WY0823" x="3986" y="426">XXXX</text>
+      <text id="WY0925" x="3986" y="456">XXXX</text>
+      <text id="WY0928" x="4046" y="426">XXXX</text>
+      <text id="WY0826" x="4046" y="456">XXXX</text>
+      <text id="WJ0493" x="5151" y="336">XXXX</text>
+      <text id="WJ0341" x="5151" y="306">XXXX</text>
+      <text id="WS0042" x="4881" y="186">XXXX</text>
+      <text id="WS0041" x="4881" y="156">XXXX</text>
+      <text id="WS0014" x="2801" y="456">XXXX</text>
+      <text id="WS0021" x="2801" y="426">XXXX</text>
+      <text id="WSB013" x="2411" y="426">XXXX</text>
+      <text id="WS0023" x="2921" y="486">XXXX</text>
+      <text id="U31044" x="2920" y="516">XXXX</text>
+      <text id="WS0301" x="2921" y="426">XXXX</text>
+      <text id="WS0018" x="3101" y="456">XXXX</text>
+      <text id="WS0025" x="3161" y="426">XXXX</text>
+      <text id="WS0022" x="3101" y="486">XXXX</text>
+      <text id="WS0024" x="3856" y="516">XXXX</text>
+      <text id="WS0033" x="3856" y="486">XXXX</text>
+      <text id="WS0031" x="3481" y="486">XXXX</text>
+      <text id="WS0028" x="4386" y="516">XXXX</text>
+      <text id="WS0037" x="4446" y="486">XXXX</text>
+      <text id="WS0304" x="4446" y="516">XXXX</text>
+      <text id="WS0035" x="4181" y="486">XXXX</text>
+      <text id="WS0026" x="4206" y="516">XXXX</text>
+      <text id="WS0036" x="4701" y="546">XXXX</text>
+      <text id="WS0038" x="4701" y="576">XXXX</text>
+      <text id="WS0032" x="4641" y="546">XXXX</text>
+      <text id="WS0034" x="4641" y="576">XXXX</text>
+      <text id="WY0520" x="1251" y="216">XXXX</text>
+      <text id="U31202" x="1311" y="516">XXXX</text>
+      <text id="U31204" x="1225" y="516">XXXX</text>
+      <text id="U31200" x="1226" y="486">XXXX</text>
+      <text id="WY0125" x="2626" y="246">XXXX</text>
+      <text id="WJ1252" x="5091" y="366">XXXX</text>
+      <text id="WJ0791" x="4816" y="396">XXXX</text>
+      <text id="WJ0793" x="4816" y="426">XXXX</text>
+      <text id="WY1254" x="5091" y="395">XXXX</text>
+      <text id="WY1256" x="5091" y="425">XXXX</text>
+      <text id="WY1185" x="2946" y="125">XXXX</text>
+      <text id="WY0622" x="2886" y="125">XXXX</text>
+      <text id="WY1182" x="3096" y="36">XXXX</text>
+      <text id="WY0624" x="3096" y="126">XXXX</text>
+      <text id="WY0741" x="3156" y="125">XXXX</text>
+      <text id="WY0738" x="3096" y="96">XXXX</text>
+      <text id="WY0621" x="3156" y="95">XXXX</text>
+      <text id="WY0748" x="3331" y="66">XXXX</text>
+      <text id="WY0740" x="3331" y="126">XXXX</text>
+      <text id="WY0799" x="3391" y="65">XXXX</text>
+      <text id="WY0743" x="3651" y="95">XXXX</text>
+      <text id="WY0623" x="3651" y="65">XXXX</text>
+      <text id="AW0150" x="3761" y="95">XXXX</text>
+      <text id="AW0149" x="3761" y="65">XXXX</text>
+      <text id="WY0797" x="3546" y="35">XXXX</text>
+      <text id="WY0744" x="3331" y="96">XXXX</text>
+      <text id="WY1163" x="2380" y="335">XXXX</text>
+      <text id="WY1210" x="3976" y="155">XXXX</text>
+      <text id="WS0027" x="3161" y="486">XXXX</text>
+      <text id="WYA101" x="136" y="35">XXXX</text>
+      <text id="WYB101" x="16" y="35">XXXX</text>
+    </g>
+    <g id="base" class="text">
+      <text x="2705" y="378" class="label">
+        <tspan>Kensal Green Tunnels</tspan>
+      </text>
+      <path d="M 3190,629 3190,554" class="divide"/>
+      <text x="3210" y="630" class="divide_text">
+        <tspan>WM</tspan>
+      </text>
+      <text x="3175" y="630" class="divide_text">
+        <tspan>NL</tspan>
+      </text>
+      <text x="2955" y="535" class="divide_text">
+        <tspan>NL</tspan>
+      </text>
+      <text x="2991" y="535" class="divide_text">
+        <tspan>WS</tspan>
+      </text>
+      <text x="1940" y="203" class="label">
+        <tspan>Primrose Hill Tunnel</tspan>
+      </text>
+      <text x="1360" y="182" class="feature" id="T_CMDNCWM">
+        <tspan>Carriage Wash</tspan>
+      </text>
+      <text x="1120" y="183" class="feature" id="T_CMDNSTH">
+        <tspan>Camden South Junction</tspan>
+      </text>
+      <text x="1355" y="212" class="feature" id="T_CMDNCSD">
+        <tspan>Carriage Sidings</tspan>
+      </text>
+      <text x="985" y="168" class="label">
+        <tspan>Park Street Tunnel</tspan>
+      </text>
+      <text x="656" y="512" class="label">
+        <tspan>Up Siding 1</tspan>
+      </text>
+      <text x="655" y="542" class="label">
+        <tspan>Up Siding 2</tspan>
+      </text>
+      <text x="985" y="457" class="label">
+        <tspan>Park Street Bridge</tspan>
+      </text>
+      <text x="95" y="646" class="station" id="T_EUSTON">
+        <tspan>LONDON EUSTON</tspan>
+      </text>
+      <text x="1395" y="561" class="station" id="T_PRIMRSH">
+        <tspan>Primrose Hill</tspan>
+      </text>
+      <text x="2055" y="381" class="station" id="T_SHMPSTD">
+        <tspan>SOUTH HAMPSTEAD</tspan>
+      </text>
+      <text x="2230" y="496" class="station" id="T_KLBRNHR">
+        <tspan>KILBURN HIGH ROAD</tspan>
+      </text>
+      <text x="2460" y="516" class="station" id="T_QPRK">
+        <tspan>QUEENS PARK</tspan>
+      </text>
+      <text x="2644" y="516" class="station" id="T_KENSLG">
+        <tspan>KENSAL GREEN</tspan>
+      </text>
+      <text x="3151" y="515" class="station" id="T_WLSDNJL">
+        <tspan>WILLESDEN JUNCTION</tspan>
+      </text>
+      <text x="3875" y="555" class="station" id="T_HARLSDN">
+        <tspan>HARLESDEN</tspan>
+      </text>
+      <text x="4435" y="560" class="station" id="T_STNBGPK">
+        <tspan>STONEBRIDGE PARK</tspan>
+      </text>
+      <text x="5145" y="466" class="station" id="T_WMBY">
+        <tspan>WEMBLEY CENTRAL</tspan>
+      </text>
+      <text x="5320" y="81" class="station" id="T_NWEMBLY">
+        <tspan>NORTH WEMBLEY</tspan>
+      </text>
+      <text x="5450" y="116" class="station" id="T_SKENTON">
+        <tspan>SOUTH KENTON</tspan>
+      </text>
+      <text x="5570" y="86" class="station" id="T_KTON">
+        <tspan>KENTON</tspan>
+      </text>
+      <text x="5195" y="407" class="label">
+        <tspan>Loco Sidings</tspan>
+      </text>
+      <text x="5150" y="393" class="label">
+        <tspan>L</tspan>
+      </text>
+      <text x="5150" y="423" class="label">
+        <tspan>M</tspan>
+      </text>
+      <text x="5140" y="111" class="station" id="T_WMBYDC">
+        <tspan>WEMBLEY CENTRAL</tspan>
+      </text>
+      <text x="2836" y="488" class="link">
+        <tspan>To/From</tspan>
+      </text>
+      <text x="2836" y="498" class="link">
+        <tspan>Kensal Green</tspan>
+      </text>
+      <text x="2836" y="508" class="link">
+        <tspan>Junction</tspan>
+      </text>
+      <text x="3056" y="578" class="link">
+        <tspan>To/From</tspan>
+      </text>
+      <text x="3056" y="588" class="link">
+        <tspan>Kensal Green</tspan>
+      </text>
+      <text x="3056" y="598" class="link">
+        <tspan>Junction</tspan>
+      </text>
+      <text x="2751" y="158" class="link">
+        <tspan>To/From</tspan>
+      </text>
+      <text x="2751" y="168" class="link">
+        <tspan>Mitre Bridge</tspan>
+      </text>
+      <text x="2751" y="178" class="link">
+        <tspan>Junction</tspan>
+      </text>
+      <text x="1140" y="493" class="link">
+        <tspan>To/From</tspan>
+      </text>
+      <text x="1140" y="503" class="link">
+        <tspan>Camden Road</tspan>
+      </text>
+      <text x="4900" y="542" class="feature" id="T_STNBPKD">
+        <tspan>Stonebridge Park Depot (LUL)</tspan>
+      </text>
+      <text x="3660" y="388" class="link">
+        <tspan>To/From</tspan>
+      </text>
+      <text x="3660" y="397" class="link">
+        <tspan>Brent Sidings</tspan>
+      </text>
+      <text x="3661" y="428" class="link">
+        <tspan>To/From</tspan>
+      </text>
+      <text x="3660" y="437" class="link">
+        <tspan>Railnet and</tspan>
+      </text>
+      <text x="3660" y="447" class="link">
+        <tspan>Carriage Shed</tspan>
+      </text>
+      <text x="3345" y="373" class="feature" id="T_HARLSJN">
+        <tspan>Harlesden Junction</tspan>
+      </text>
+      <text x="4760" y="403" class="link">
+        <tspan>To/From</tspan>
+      </text>
+      <text x="4760" y="412" class="link">
+        <tspan>Sidings</tspan>
+      </text>
+      <text x="5736" y="283" class="link">
+        <tspan>To/From</tspan>
+      </text>
+      <text x="5736" y="293" class="link">
+        <tspan>Harrow and</tspan>
+      </text>
+      <text x="5736" y="303" class="link">
+        <tspan>Wealdstone</tspan>
+      </text>
+      <text x="2935" y="213" class="feature" id="T_WLSDWLJ">
+        <tspan>West London Junction</tspan>
+      </text>
+      <text x="3885" y="68" class="link">
+        <tspan>To/From</tspan>
+      </text>
+      <text x="3885" y="78" class="link">
+        <tspan>Acton Wells</tspan>
+      </text>
+      <text x="3885" y="88" class="link">
+        <tspan>Junction</tspan>
+      </text>
+      <text x="215" y="127" class="label">
+        <tspan>Middle Sidings</tspan>
+      </text>
+      <text x="3485" y="92" class="label">
+        <tspan>Data Incomplete</tspan>
+      </text>
+      <text x="495" y="567" class="label">
+        <tspan>Up Carriage Shed</tspan>
+      </text>
+      <text x="5455" y="377" class="label">
+        <tspan>North Wembley Junction</tspan>
+      </text>
+      <path d="M 2970,539 2970,494 2910,494 2910,454" class="divide"/>
+      <text x="3995" y="127" class="feature" id="T_WLSDNFS">
+        <tspan>'F' Sidings</tspan>
+      </text>
+      <text x="2055" y="522" class="label">
+        <tspan>Trains will show at South Hampstead prior</tspan>
+      </text>
+      <text x="2055" y="532" class="label">
+        <tspan>to their actual arrival - check adjacent berths</tspan>
+      </text>
+      <text x="624" y="152" class="label">
+        <tspan>HS2 Works Sidings</tspan>
+      </text>
+      <text x="48" y="12" class="label">
+        <tspan>HS2 Works Siding 1</tspan>
+      </text>
+      <rect x="2800" y="475" width="70" height="40" class="map_link" id="LINK_2"/>
+      <rect x="3020" y="565" width="70" height="40" class="map_link" id="LINK_3"/>
+      <rect x="2715" y="145" width="70" height="40" class="map_link" id="LINK_1"/>
+      <rect x="1105" y="475" width="70" height="40" class="map_link" id="LINK_4"/>
+      <rect x="4725" y="385" width="70" height="40" class="map_link" id="LINK_1-6"/>
+      <rect x="5700" y="270" width="70" height="40" class="map_link" id="LINK_6"/>
+      <rect x="3850" y="55" width="70" height="40" class="map_link" id="LINK_5"/>
+    </g>
+  </g>
+</svg>
