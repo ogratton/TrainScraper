@@ -1,49 +1,51 @@
 """
 Python version of npm yeast
-TODO refactor & test
+Used in websockets for cache-busting
 """
 import math
 import time
 
-alphabet = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz-_'
-length = len(alphabet)  # 64
-t_map = {k: i for i, k in enumerate(alphabet)}
-seed = 0
-i = 0
-prev = None
 
+class Yeast:
 
-def encode(num):
-    encoded = ''
-    while True:
-        encoded = alphabet[int(num % length)] + encoded
-        num = math.floor(num / length)
-        # simulate do-while
-        if not (num > 0):
-            break
-    return encoded
+    alphabet = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz-_'
+    length = len(alphabet)  # 64
+    t_map = {k: i for i, k in enumerate(alphabet)}
+    seed = 0
+    prev = None
 
+    @classmethod
+    def yeast(cls):
+        ts = int(time.time() * 1000)
+        now = cls.encode(ts)
+        if now != cls.prev:
+            cls.seed = 0
+            cls.prev = now
+            return now
+        else:
+            r = now + '.' + cls.encode(cls.seed)
+            cls.seed += 1
+            return r
 
-def decode(enc_str):
-    decoded = 0
-    for i in range(len(enc_str)):
-        decoded = decoded * length + t_map[enc_str[i]]
-    return decoded
+    @classmethod
+    def encode(cls, num):
+        encoded = ''
+        while True:
+            encoded = cls.alphabet[int(num % cls.length)] + encoded
+            num = math.floor(num / cls.length)
+            # simulate do-while
+            if not num > 0:
+                break
+        return encoded
 
-
-def yeast():
-    global prev, seed
-    ts = int(time.time() * 1000)
-    now = encode(ts)
-    if now != prev:
-        seed = 0
-        prev = now
-        return now
-    else:
-        r = now + '.' + encode(seed)
-        seed += 1
-        return r
+    @classmethod
+    def decode(cls, enc_str):
+        enc_str = enc_str.split('.')[0]
+        decoded = 0
+        for e in enc_str:
+            decoded = decoded * cls.length + cls.t_map[e]
+        return decoded
 
 
 if __name__ == '__main__':
-    print(yeast())
+    print(Yeast.yeast())
