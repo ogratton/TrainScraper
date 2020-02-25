@@ -17,7 +17,7 @@ TODO:
         but should wait for async
 """
 from __future__ import annotations
-from .yeast import yeast
+from .yeast import Yeast
 
 from dataclasses import dataclass
 from typing import Iterator
@@ -111,7 +111,7 @@ class WebsocketPoller:
 
     @classmethod
     def _poll_xhr(cls, session: Session, sid=None) -> bytes:
-        t_val = yeast()
+        t_val = Yeast.yeast()
         sid_arg = f"&sid={sid}" if sid else ""
         url = f"https://{cls._base_url}?EIO=3&transport=polling&t={t_val}{sid_arg}"
         page = session.get(url)
@@ -126,7 +126,7 @@ class WebsocketPoller:
 
     @classmethod
     def _post_map(cls, session: Session, sid: str, message: str):
-        t_val = yeast()
+        t_val = Yeast.yeast()
         url = f"https://{cls._base_url}?EIO=3&transport=polling&t={t_val}&sid={sid}"
         print("Heartbeat")
         logger.debug(f"POST: {url}")
